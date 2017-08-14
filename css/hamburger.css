@@ -1,0 +1,8 @@
+.ps-hamburger{
+  background-color: rgba(0,0,0,0);
+  border:transparent;
+}
+
+ps-hamburger::before {
+      font-size: 28px;
+}

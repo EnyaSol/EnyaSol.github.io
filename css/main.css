@@ -33,15 +33,45 @@ body {
   background-color: inherit;
   opacity: .8;
 }
+
 .content {
   text-align: center;
   text-align: -webkit-center;
 }
 
-.clock {
-  font-size: 110px;
+.ps-nav-container{
+  margin-bottom: 69px;
+  margin-top: 11px;
 
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
+
+.ps-hamburger::before {
+      font-size: 28px;
+}
+
+.glyphicon-menu-hamburger:before {
+    content: "\e236";
+    border: solid 1px;
+    border-radius: 3px;
+  }
+
+.ps-nav {
+  font-size: 25px;
+  color: white;
+}
+
+.name-heading{
+  font-size: 90px;
+}
+
+.script {
+  font-family: 'Dancing Script', cursive;
+}
+
+
 
 .fade-in {
 
