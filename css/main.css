@@ -69,6 +69,10 @@ body {
   align-items:center;
 }
 
+.ps-hamburger:focus {
+  outline:0;
+}
+
 .ps-hamburger::before {
       font-size: 254%;
 }
