@@ -6,12 +6,52 @@ body {
   background-image: url(../resources/fall.png);
 }
 
-.main {
+.ps-content-container {
+    background-color: rgba(0,0,0,.5);
+    color: white;
+    display: flex;
+    padding-left: 0 !important;
+}
+
+.ps-main {
   color: white;
-  //background-color: black;
   font-family: 'Roboto', sans-serif;
-  background-color: rgba(0,0,0,.5);
-  min-height: 100vh
+  width: 100%;
+  min-height: 100vh;
+}
+
+.ps-secondary {
+  background: rgba(0, 0, 0, 0.68);
+  width: 10%;
+  padding-top: 3%;
+  -webkit-transition: width 1s, height 4s; /* For Safari 3.1 to 6.0 */
+  transition: width 1s, height 4s;
+}
+
+.ps-sidebar {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 142%;
+}
+
+.ps-sidebar-item {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  cursor: pointer;
+}
+
+.ps-link{
+  color: white;
+  text-decoration: none;
+}
+
+.ps-link:hover{
+  color: white;
+}
+
+.ps-sidebar-item:hover {
+  background-color: rgba(255,255,255,.5);
 }
 
 .content {
@@ -34,8 +74,6 @@ body {
 
 .ps-nav {
   font-size: 282%;
-
-  color: white;
 }
 
 .name-heading{
