@@ -4,32 +4,15 @@ html {
 
 body {
   margin: 0px;
-  background-image: url("../resources/fall.png");
+  background-image: url("../resources/fall.png");]
+  background-repeat: no-repeat;
 }
 
 .main {
   color: white;
   font-family: 'Roboto', sans-serif;
   background-color: rgba(0,0,0,.5);
-  min-height: 100vh;
-}
-
-.navigation{
-  display:inline-block;
-}
-
-.navbar {
-  text-align: center;
-}
-
-
-.nav-link {
-  color: white
-}
-
-.nav-link:hover {
-  background-color: inherit;
-  opacity: .8;
+  min-height: 100vh
 }
 
 .content {
@@ -50,14 +33,9 @@ body {
       font-size: 254%;
 }
 
-.glyphicon-menu-hamburger:before {
-    content: "\e236";
-    border: solid 1px;
-    border-radius: 3px;
-  }
-
 .ps-nav {
-  font-size: 25px;
+  font-size: 282%;
+
   color: white;
 }
 
@@ -68,45 +46,3 @@ body {
 .script {
   font-family: 'Dancing Script', cursive;
 }
-
-
-
-.fade-in {
-
-  animation: fadein 2s;
-  -moz-animation: fadein 2s; /* Firefox */
-  -webkit-animation: fadein 2s; /* Safari and Chrome */
-  -o-animation: fadein 2s; /* Opera */
-  }
-  @keyframes fadein {
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
-  }
-  @-moz-keyframes fadein { /* Firefox */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
-  }
-  @-webkit-keyframes fadein { /* Safari and Chrome */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity:1;
-      }
-  }
-  @-o-keyframes fadein { /* Opera */
-      from {
-          opacity:0;
-      }
-      to {
-          opacity: 1;
-      }
-  }
