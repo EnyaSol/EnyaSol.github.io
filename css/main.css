@@ -49,7 +49,7 @@ body {
 }
 
 .ps-hamburger::before {
-      font-size: 28px;
+      font-size: 254%;
 }
 
 .glyphicon-menu-hamburger:before {
