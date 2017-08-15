@@ -6,9 +6,10 @@ function toggle() {
 }
 
 function _updateNavItems(time){
+  var incrVal = 600;
   for(var i = 0; i < navItems.length; i++){
     $(navItems[i]).stop(true,true)
-    $(navItems[i]).fadeToggle(time)
+    $(navItems[i]).fadeToggle(time + (incrVal * i))
     // isNavItemsDisplayed ? $(navItems[i]).fadeToggle(2000) : $(navItems[i]).fadeOut(300)
   }
 }
