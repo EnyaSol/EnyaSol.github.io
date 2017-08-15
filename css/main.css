@@ -3,10 +3,8 @@ html {
 }
 
 body {
-  height: -webkit-fill-available;
   margin: 0px;
   background-image: url("../resources/fall.png");
-  min-height: 100%;
 }
 
 .main {
@@ -41,7 +39,7 @@ body {
 
 .ps-nav-container{
   margin-bottom: 69px;
-  margin-top: 11px;
+  margin-top: 36px;
 
   display:flex;
   justify-content:center;
