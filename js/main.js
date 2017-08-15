@@ -6,7 +6,7 @@ function toggle() {
 }
 
 function _updateNavItems(time){
-  var incrVal = 600;
+  var incrVal = ($(sidebar).hasClass('expand')) ? 600 : -100;
   for(var i = 0; i < navItems.length; i++){
     $(navItems[i]).stop(true,true)
     $(navItems[i]).fadeToggle(time + (incrVal * i))
