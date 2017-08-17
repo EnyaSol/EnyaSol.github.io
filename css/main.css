@@ -83,6 +83,11 @@ body {
 
 .ps-name-heading{
   font-size: 90px;
+  display: none;
+}
+
+.ps-h3{
+  display: none;
 }
 
 .ps-script {
