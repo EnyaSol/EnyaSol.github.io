@@ -1,7 +1,12 @@
 function toggle() {
   isNavItemsDisplayed = !isNavItemsDisplayed;
 
-  $(sidebar).toggleClass('expand')
+  if($(sidebar).hasClass("slow-expand"))
+    $(sidebar).toggleClass("slow-expand");
+  else
+    $(sidebar).toggleClass('expand')
+
+  $(burger).toggleClass('is-active')
   _updateNavItems(isNavItemsDisplayed ? 500 : 1500);
 }
 
@@ -30,6 +35,8 @@ setTimeout(function(){
 
 burger.addEventListener('click', toggle);
 window.onload = function(){
-  toggle();
-  toggle();
+    _updateNavItems();
+    _updateNavItems(2000)
+    $(sidebar).toggleClass('slow-expand')
+    $(burger).toggleClass('is-active')
 }
