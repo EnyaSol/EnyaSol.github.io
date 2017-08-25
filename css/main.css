@@ -1,122 +1,43 @@
-body {
-  margin: 0px;
-  background-repeat: no-repeat;
-  overflow-x:hidden;
-  background-size: 100% 100%;
+html,body {
+  background-color: #2d5d65 !important;
+  height: 100%;
 }
 
-.ps-content-container {
-    background-color: rgba(0,0,0,.5);
-    color: white;
-    display: flex;
-    padding-left: 0 !important;
-    background-color: #2d5d65;
+.ps-main-container, ps-main{
+  height: 100%;
+
+  height: -webkit-fill-available;
+
 }
 
-.ps-main {
+.ps-sidebar-container {
+  list-style: none;
+  padding-left: 0px;
   color: white;
-  font-family: 'Roboto', sans-serif;
-  width: 100%;
-  min-height: 100vh;
-}
-
-.ps-secondary {
-  background: rgba(0, 0, 0, 0.68);
-  width: 0;
-  padding-top: 3%;
-  -webkit-transition: width 1s, height 4s; /* For Safari 3.1 to 6.0 */
-  transition: width 1s, height 4s;
-
-}
-
-.ps-sidebar {
-  list-style-type: none;
-  padding-left: 0;
-  font-size: 142%;
 }
 
 .ps-sidebar-item {
+  font-size: 2.5vw;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
+}
+
+
+.ps-emblem {
+  font-family: 'Dancing Script', cursive;
+  font-size: 7em;
+  background-color: #c73314;
+  text-align: center;
+  border-radius: 50%;
+  content: ' \25CF';
+  height: 140px;
+  width: 140px;
   margin: auto;
-  width: 100%;
-  cursor: pointer;
-  opacity: 1;
 }
 
-.ps-link{
-  color: white;
-  text-decoration: none;
-}
+.ps-sidebar {
+  background-color: rgba(47, 45, 45, 0.81);
+  min-width: 166px;
 
-.ps-link:hover{
-  color: white;
-}
-
-.ps-sidebar-item:hover {
-  background-color: rgba(255,255,255,.5);
-}
-
-.content {
-  text-align: center;
-  text-align: -webkit-center;
-}
-
-.ps-nav-container{
-  margin-bottom: 69px;
-  margin-top: 36px;
-
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
-.ps-hamburger:focus {
-  outline:0;
-}
-
-.ps-hamburger::before {
-      font-size: 254%;
-}
-
-.ps-nav {
-  font-size: 282%;
-}
-
-.ps-name-heading{
-  font-size: 90px;
-  display: none;
-}
-
-.ps-h3{
-  display: none;
-}
-
-.ps-script {
-  //font-family: 'Dancing Script', cursive;
-  font-family: 'Yellowtail', cursive;
-  text-align: center;
-}
-
-.expand {
-    width: 10%;
-}
-
-.slow-expand{
-  width: 10%;
-  -webkit-transition: width 1.3s, height 4s; /* For Safari 3.1 to 6.0 */
-  transition: width 1.3s, height 4s;;
-}
-
-.ps-h3 {
-  font-size: 293%;
-  -webkit-transition: color 1s;
-        -moz-transition:    color 1s;
-        -ms-transition:     color 1s;
-        -o-transition:      color 1s;
-        transition:         color 1s;
-}
-
-.ps-h3:hover{
-  color: red;
-  cursor: pointer;
+  height: -webkit-fill-available;
 }
