@@ -14,6 +14,7 @@ html,body {
   list-style: none;
   padding-left: 0px;
   color: white;
+  margin-top: 16px;
 }
 
 .ps-sidebar-item {
